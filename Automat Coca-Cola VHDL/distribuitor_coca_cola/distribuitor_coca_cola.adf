@@ -1,0 +1,60 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=distribuitor_coca_cola
+
+[Library]
+distribuitor_coca_cola=.\distribuitor_coca_cola.lib
+
+[$LibMap$]
+distribuitor_coca_cola=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=comp_5|arh_comportamentala|0 distribuitor|arh_dis|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/comparator.vhd=-1
+/comparator_5bani.vhd=-1
+/comparator_10bani.vhd=-1
+/Buton.vhd=-1
+/comparator_50bani.vhd=-1
+/mux.vhd=-1
+/comp_suma.vhd=-1
+/distribuitor.vhd=-1
+/registru.vhd=-1
+/sumator.vhd=-1
+/scazator.vhd=-1
+
+[Files.Data]
+.\src\comparator.vhd=VHDL Source Code
+.\src\comparator_5bani.vhd=VHDL Source Code
+.\src\comparator_10bani.vhd=VHDL Source Code
+.\src\Buton.vhd=VHDL Source Code
+.\src\comparator_50bani.vhd=VHDL Source Code
+.\src\mux.vhd=VHDL Source Code
+.\src\comp_suma.vhd=VHDL Source Code
+.\src\distribuitor.vhd=VHDL Source Code
+.\src\registru.vhd=VHDL Source Code
+.\src\sumator.vhd=VHDL Source Code
+.\src\scazator.vhd=VHDL Source Code
+

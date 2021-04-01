@@ -1,0 +1,14 @@
+[Version]
+Version=6.3
+[Designs]
+distribuitor_coca_cola=distribuitor_coca_cola.adf
+[Settings]
+Active=distribuitor_coca_cola
+[Expand]
+distribuitor_coca_cola=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

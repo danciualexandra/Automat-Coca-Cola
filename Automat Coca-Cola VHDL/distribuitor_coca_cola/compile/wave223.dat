@@ -1,0 +1,189 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 17 1 4 A
+$SC 1-13/4
+I 3 "a#28#std_logic_vector(4 downto 0)1 ricd4 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 38 3 5 a3
+$SC 18-34/4
+$BUS S 59 3 5 a2
+$SC 39-55/4
+$BUS S 80 3 5 a1
+$SC 60-76/4
+$BUS S +25 3 5 a0
+$SC 81-97/4
+$OUT +5 2 F3
+$OUT +4 2 AM
+$OUT +4 2 AT
+$OUT +4 2 FS
+$BUS OUT +24 3 5 RM
+$SC 118-+16/4
+$OUT +5 2 Suc
+$BUS OUT +24 3 5 Rest
+$SC 143-+16/4
+$IN +5 2 CLK
+$IN +4 2 Nr_sucuri
+$BUS S +24 3 5 q
+$SC 172-+16/4
+$IN +5 2 Button
+$BUS IN +4 1 4 A
+$SC 1-13/4
+$BUS S 198 3 5 a3
+$SC 18-34/4
+$BUS S 199 3 5 a2
+$SC 39-55/4
+$BUS S 200 3 5 a1
+$SC 60-76/4
+$BUS S 201 3 5 a0
+$SC 81-97/4
+$OUT +5 0 F3
+$OUT +4 0 AM
+$OUT +4 0 AT
+$OUT +4 0 FS
+$BUS OUT +88 3 5 RM
+$SC 118-+16/4
+$OUT +5 0 Suc
+$BUS OUT +64 3 5 Rest
+$SC 143-+16/4
+$IN +9 0 Nr_sucuri
+$BUS S +36 3 5 q
+$SC 172-+16/4
+$IN +5 0 Button
+$ENDTIME 100000
+$WAVES 168
+=0 T 0
+$VALUES
+V 1
+1
+$END
+$WAVES +-4
+*0
+R 1 2 =1 T 50k
+$VALUES
+V 3
+0
+1
+0
+$END
+$WAVES 102
+*0
+=2 D 50k 1
+$VALUES
+V 2
+U
+1
+$END
+$WAVES 1-13/4 +5-34/4 +5-55/4 +5-76/4 +5-97/4 +21-+16/4 +9-+16/4 +34
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES 106 +66-+16/4
+*0
+*2
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 110 +4 +25
+*0
+=3 D 0 1
+$VALUES
+V 2
+U
+0
+$END
+$ENDTIME 200000
+$WAVES +25
+=4 T 150k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 102
+=5 D 150k 1
+$VALUES
+V 1
+0
+$END
+$WAVES 55
+=6 D 100k 1
+$VALUES
+V 1
+1
+$END
+$WAVES 13
+*6
+$VALUES
+V 1
+1
+$END
+$WAVES +93
+*5
+$VALUES
+V 1
+1
+$END
+$ENDTIME 300000
+$WAVES +58
+=7 T 250k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 13
+=8 D 200k 1
+$VALUES
+V 1
+0
+$END
+$WAVES 9
+*8
+$VALUES
+V 1
+1
+$END
+$ENDTIME 400000
+$WAVES 164
+=9 T 350k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 55
+=10 D 300k 1
+$VALUES
+V 1
+0
+$END
+$WAVES 34
+*10
+$VALUES
+V 1
+1
+$END
+$WAVES 1
+*10
+$VALUES
+V 1
+1
+$END
+$ENDTIME 500000
+$WAVES 164
+=11 T 450k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$ENDWAVE

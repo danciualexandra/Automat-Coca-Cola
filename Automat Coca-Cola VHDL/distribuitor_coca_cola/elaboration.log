@@ -1,0 +1,28 @@
+elbread.dll ver. 1.0.5.365 Tue May 21 16:45:09 2019
+
+
+------------------------------------------------------------
+Entity        | Architecture        | Library             
+------------------------------------------------------------
+distribuitor  | arh_dis             | distribuitor_coca_cola
+comparator    | arh1                | distribuitor_coca_cola
+comp_5        | arh_comportamentala | distribuitor_coca_cola
+comp_10       | arh_comportamentala | distribuitor_coca_cola
+comp_50       | arh_comportamentala | distribuitor_coca_cola
+mux           | arh1                | distribuitor_coca_cola
+sumator       | arh                 | distribuitor_coca_cola
+reg           | arh                 | distribuitor_coca_cola
+comp_suma     | arh1                | distribuitor_coca_cola
+scazator      | arh                 | distribuitor_coca_cola
+buton         | arh_buton           | distribuitor_coca_cola
+------------------------------------------------------------
+
+-----------------------------
+Package             | Library
+-----------------------------
+standard            | std
+std_logic_1164      | ieee
+numeric_std         | ieee
+std_logic_arith     | ieee
+std_logic_unsigned  | ieee
+-----------------------------

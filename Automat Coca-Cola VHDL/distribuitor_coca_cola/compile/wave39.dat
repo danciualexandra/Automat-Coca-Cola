@@ -1,0 +1,95 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 17 1 4 A
+$SC 1-13/4
+$IN +5 2 CLK
+$BUS S 38 1 4 a1
+$SC 22-34/4
+$BUS S 55 1 4 a2
+$SC 39-51/4
+$BUS S 72 1 4 a3
+$SC 56-68/4
+$BUS S 89 1 4 a4
+$SC 73-85/4
+$BUS S +21 1 4 a0
+$SC 90-+12/4
+$ENDTIME 100000
+$WAVES 1-13/4 +5 90-+12/4
+=0 T 0
+$VALUES
+V 1
+U
+$END
+$WAVES 22-+8/4 +9 +4 +8 +9 +8 +5-85/4
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES 34 47 +9 +8
+*0
+$VALUES
+V 1
+1
+$END
+$ENDTIME 200000
+$WAVES +38
+=1 D 150k 1
+$VALUES
+V 1
+0
+$END
+$WAVES 9
+=2 D 100k 1
+$VALUES
+V 1
+1
+$END
+$WAVES +9
+*2
+R 1 2 =3 T 50k
+$VALUES
+V 3
+0
+1
+0
+$END
+$WAVES 13
+*2
+$VALUES
+V 1
+0
+$END
+$WAVES 5
+*2
+$VALUES
+V 1
+0
+$END
+$WAVES 1
+*2
+$VALUES
+V 1
+0
+$END
+$WAVES 90
+*1
+$VALUES
+V 1
+0
+$END
+$WAVES +4
+*1
+$VALUES
+V 1
+0
+$END
+$WAVES +4
+*1
+$VALUES
+V 1
+X
+$END
+$ENDWAVE

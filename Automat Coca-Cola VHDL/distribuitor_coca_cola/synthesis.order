@@ -1,0 +1,11 @@
+i<>.\src\comparator.vhd
+i<>.\src\comparator_5bani.vhd
+i<>.\src\comparator_10bani.vhd
+i<>.\src\comparator_50bani.vhd
+i<>.\src\mux.vhd
+i<>.\src\comp_suma.vhd
+i<>.\src\distribuitor.vhd
+i<>.\src\registru.vhd
+i<>.\src\sumator.vhd
+i<>.\src\scazator.vhd
+i<>.\src\Buton.vhd
